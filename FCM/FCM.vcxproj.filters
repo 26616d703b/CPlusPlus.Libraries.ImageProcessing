@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Supervised">
+      <UniqueIdentifier>{c1170526-bcda-462a-bed5-c074697b1262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unsupervised">
+      <UniqueIdentifier>{8ffc88e0-9c8d-4851-9e45-42f20b4a1e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Supervised">
+      <UniqueIdentifier>{feb619ba-ed3c-4872-ba1a-98a05dd4c9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unsupervised">
+      <UniqueIdentifier>{24d7f7ec-1192-44a7-a77d-d6a20f195912}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FCM.h">
+      <Filter>Header Files\Unsupervised</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterCentroid.h">
+      <Filter>Header Files\Unsupervised</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterPoint.h">
+      <Filter>Header Files\Unsupervised</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClusterCentroid.cpp">
+      <Filter>Source Files\Unsupervised</Filter>
+    </ClCompile>
+    <ClCompile Include="ClusterPoint.cpp">
+      <Filter>Source Files\Unsupervised</Filter>
+    </ClCompile>
+    <ClCompile Include="FCM.cpp">
+      <Filter>Source Files\Unsupervised</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
